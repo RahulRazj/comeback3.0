@@ -9,7 +9,8 @@ export async function GET() {
     return NextResponse.json(metrics);
   } catch (error) {
     console.error('Failed to get dashboard metrics:', error);
-    return NextResponse.json({ error: 'Failed to get dashboard metrics' }, { status: 500 });
+    const details = error instanceof Error ? error.message : String(error);
+    return NextResponse.json({ error: 'Failed to get dashboard metrics', details }, { status: 500 });
   }
 }
 

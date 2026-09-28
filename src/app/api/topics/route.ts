@@ -26,7 +26,8 @@ export async function GET(request: Request) {
     return NextResponse.json({ topics, count: topics.length });
   } catch (error) {
     console.error('Failed to fetch topics:', error);
-    return NextResponse.json({ error: 'Failed to fetch topics' }, { status: 500 });
+    const details = error instanceof Error ? error.message : String(error);
+    return NextResponse.json({ error: 'Failed to fetch topics', details }, { status: 500 });
   }
 }
 
