@@ -38,6 +38,12 @@ function getDatabase(): Database.Database {
     return global.__db_instance;
   }
 
+  if (process.env.VERCEL && !isSupabaseConfigured()) {
+    throw new Error(
+      'Supabase environment variables (SUPABASE_URL and SUPABASE_SECRET_KEY) are missing in Vercel. Please add them in Vercel Project Settings > Environment Variables, then Redeploy.'
+    );
+  }
+
   const DATA_DIR = path.join(process.cwd(), 'data');
   if (!fs.existsSync(DATA_DIR)) {
     fs.mkdirSync(DATA_DIR, { recursive: true });
