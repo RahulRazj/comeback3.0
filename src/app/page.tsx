@@ -1,69 +1,339 @@
-import Image from "next/image";
+'use client';
+
+import React, { useState, useEffect, useCallback } from 'react';
+import { Sidebar } from '@/components/Sidebar';
+import { Header } from '@/components/Header';
+import { DashboardView } from '@/components/DashboardView';
+import { PillarView } from '@/components/PillarView';
+import { CalendarView } from '@/components/CalendarView';
+import { ReviewQueueView } from '@/components/ReviewQueueView';
+import { NotesView } from '@/components/NotesView';
+import { AnalyticsView } from '@/components/AnalyticsView';
+import { SqlPracticeView } from '@/components/SqlPracticeView';
+import { TopicModal } from '@/components/TopicModal';
+import { NewTopicModal } from '@/components/NewTopicModal';
+import { CommandPalette } from '@/components/CommandPalette';
+import {
+  DashboardMetrics,
+  Topic,
+  ViewTab,
+  PillarType,
+  TopicStatus,
+  ReviewOutcome,
+  ReviewLog,
+} from '@/types';
 
 export default function Home() {
+  const [currentTab, setCurrentTab] = useState<ViewTab>('dashboard');
+  const [metrics, setMetrics] = useState<DashboardMetrics | null>(null);
+  const [topics, setTopics] = useState<Topic[]>([]);
+  const [reviewHistory, setReviewHistory] = useState<ReviewLog[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  // Modals
+  const [selectedTopic, setSelectedTopic] = useState<Topic | null>(null);
+  const [isNewTopicOpen, setIsNewTopicOpen] = useState(false);
+  const [defaultNewPillar, setDefaultNewPillar] = useState<PillarType>('dsa');
+  const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
+
+  // Fetch all dashboard metrics & curriculum topics
+  const loadData = useCallback(async () => {
+    try {
+      const [dashRes, topicsRes, histRes] = await Promise.all([
+        fetch('/api/dashboard'),
+        fetch('/api/topics'),
+        fetch('/api/study-time'),
+      ]);
+
+      if (dashRes.ok) {
+        const m = await dashRes.json();
+        setMetrics(m);
+      }
+      if (topicsRes.ok) {
+        const data = await topicsRes.json();
+        setTopics(data.topics || []);
+      }
+      if (histRes.ok) {
+        const h = await histRes.json();
+        setReviewHistory(h.history || []);
+      }
+    } catch (err) {
+      console.error('Failed to load command center data:', err);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    loadData();
+  }, [loadData]);
+
+  // Global keyboard shortcuts (1-8 to switch views, Cmd+K for command palette)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Ignore if user is typing in input or textarea
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        e.target instanceof HTMLSelectElement
+      ) {
+        return;
+      }
+
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setIsCommandPaletteOpen((prev) => !prev);
+      } else if (e.key === '1') setCurrentTab('dashboard');
+      else if (e.key === '2') setCurrentTab('dsa');
+      else if (e.key === '3') setCurrentTab('system_design');
+      else if (e.key === '4') setCurrentTab('backend');
+      else if (e.key === '5') setCurrentTab('calendar');
+      else if (e.key === '6') setCurrentTab('review_queue');
+      else if (e.key === '7') setCurrentTab('notes');
+      else if (e.key === '8') setCurrentTab('analytics');
+      else if (e.key === '9') setCurrentTab('sql_practice');
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Topic mutations
+  const handleUpdateStatus = async (id: string, status: TopicStatus) => {
+    // Optimistic update
+    setTopics((prev) =>
+      prev.map((t) => (t.id === id ? { ...t, status } : t))
+    );
+    if (selectedTopic && selectedTopic.id === id) {
+      setSelectedTopic((prev) => (prev ? { ...prev, status } : null));
+    }
+
+    await fetch(`/api/topics/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ status }),
+    });
+
+    loadData();
+  };
+
+  const handleUpdateConfidence = async (id: string, confidence: number) => {
+    setTopics((prev) =>
+      prev.map((t) => (t.id === id ? { ...t, confidence } : t))
+    );
+    if (selectedTopic && selectedTopic.id === id) {
+      setSelectedTopic((prev) => (prev ? { ...prev, confidence } : null));
+    }
+
+    await fetch(`/api/topics/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ confidence }),
+    });
+
+    loadData();
+  };
+
+  const handleQuickReview = async (topicId: string, outcome: ReviewOutcome, confidence: number) => {
+    const res = await fetch(`/api/topics/${topicId}/review`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ outcome, confidence }),
+    });
+
+    if (res.ok) {
+      loadData();
+    }
+  };
+
+  const handleSaveNotes = async (
+    id: string,
+    notes: string,
+    key_intuition: string,
+    pitfalls: string
+  ) => {
+    setTopics((prev) =>
+      prev.map((t) =>
+        t.id === id ? { ...t, notes, key_intuition, pitfalls } : t
+      )
+    );
+    if (selectedTopic && selectedTopic.id === id) {
+      setSelectedTopic((prev) =>
+        prev ? { ...prev, notes, key_intuition, pitfalls } : null
+      );
+    }
+
+    await fetch(`/api/topics/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ notes, key_intuition, pitfalls }),
+    });
+
+    loadData();
+  };
+
+  const handleCreateTopic = async (
+    topicData: Partial<Topic> & { title: string; pillar: PillarType; category: string }
+  ) => {
+    const res = await fetch('/api/topics', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(topicData),
+    });
+
+    if (res.ok) {
+      loadData();
+    }
+  };
+
+  const handleDeleteTopic = async (id: string) => {
+    setTopics((prev) => prev.filter((t) => t.id !== id));
+    await fetch(`/api/topics/${id}`, { method: 'DELETE' });
+    loadData();
+  };
+
+  const openNewTopicModalWithPillar = (p: PillarType = 'dsa') => {
+    setDefaultNewPillar(p);
+    setIsNewTopicOpen(true);
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div className="flex h-screen w-screen overflow-hidden bg-[#090a0f] text-slate-100">
+      {/* Left Sidebar */}
+      <Sidebar
+        currentTab={currentTab}
+        onSelectTab={setCurrentTab}
+        metrics={metrics}
+      />
+
+      {/* Main Content Area */}
+      <div className="flex-1 flex flex-col min-w-0 h-screen overflow-hidden">
+        {/* Header */}
+        <Header
+          currentTab={currentTab}
+          metrics={metrics}
+          onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
+          onOpenNewTopicModal={() => openNewTopicModalWithPillar(currentTab === 'system_design' || currentTab === 'backend' ? currentTab : 'dsa')}
+          onRefreshData={loadData}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+
+        {/* Tab View Container */}
+        <main className="flex-1 overflow-y-auto bg-grid-pattern">
+          {loading ? (
+            <div className="p-12 text-center text-slate-500 font-mono text-xs flex items-center justify-center h-full">
+              Initializing Learning Operating System...
+            </div>
+          ) : (
+            <>
+              {currentTab === 'dashboard' && metrics && (
+                <DashboardView
+                  metrics={metrics}
+                  onSelectTab={setCurrentTab}
+                  onOpenTopic={setSelectedTopic}
+                  onQuickReview={handleQuickReview}
+                />
+              )}
+
+              {currentTab === 'dsa' && (
+                <PillarView
+                  pillar="dsa"
+                  topics={topics.filter((t) => t.pillar === 'dsa')}
+                  onOpenTopic={setSelectedTopic}
+                  onUpdateTopicStatus={handleUpdateStatus}
+                  onUpdateConfidence={handleUpdateConfidence}
+                  onSaveNotes={handleSaveNotes}
+                  onOpenNewTopicModal={openNewTopicModalWithPillar}
+                />
+              )}
+
+              {currentTab === 'system_design' && (
+                <PillarView
+                  pillar="system_design"
+                  topics={topics.filter((t) => t.pillar === 'system_design')}
+                  onOpenTopic={setSelectedTopic}
+                  onUpdateTopicStatus={handleUpdateStatus}
+                  onUpdateConfidence={handleUpdateConfidence}
+                  onSaveNotes={handleSaveNotes}
+                  onOpenNewTopicModal={openNewTopicModalWithPillar}
+                />
+              )}
+
+              {currentTab === 'backend' && (
+                <PillarView
+                  pillar="backend"
+                  topics={topics.filter((t) => t.pillar === 'backend')}
+                  onOpenTopic={setSelectedTopic}
+                  onUpdateTopicStatus={handleUpdateStatus}
+                  onUpdateConfidence={handleUpdateConfidence}
+                  onSaveNotes={handleSaveNotes}
+                  onOpenNewTopicModal={openNewTopicModalWithPillar}
+                />
+              )}
+
+              {currentTab === 'calendar' && (
+                <CalendarView
+                  topics={topics}
+                  metrics={metrics}
+                  onOpenTopic={setSelectedTopic}
+                />
+              )}
+
+              {currentTab === 'review_queue' && (
+                <ReviewQueueView
+                  topics={topics}
+                  reviewHistory={reviewHistory}
+                  onQuickReview={handleQuickReview}
+                  onOpenTopic={setSelectedTopic}
+                />
+              )}
+
+              {currentTab === 'notes' && (
+                <NotesView
+                  topics={topics}
+                  onSaveNotes={handleSaveNotes}
+                />
+              )}
+
+              {currentTab === 'analytics' && metrics && (
+                <AnalyticsView
+                  metrics={metrics}
+                  topics={topics}
+                />
+              )}
+
+              {currentTab === 'sql_practice' && (
+                <SqlPracticeView />
+              )}
+            </>
+          )}
+        </main>
+      </div>
+
+      {/* Global Modals */}
+      <TopicModal
+        topic={selectedTopic}
+        onClose={() => setSelectedTopic(null)}
+        onUpdateStatus={handleUpdateStatus}
+        onUpdateConfidence={handleUpdateConfidence}
+        onSaveNotes={handleSaveNotes}
+        onDeleteTopic={handleDeleteTopic}
+      />
+
+      <NewTopicModal
+        isOpen={isNewTopicOpen}
+        defaultPillar={defaultNewPillar}
+        onClose={() => setIsNewTopicOpen(false)}
+        onCreateTopic={handleCreateTopic}
+      />
+
+      <CommandPalette
+        isOpen={isCommandPaletteOpen}
+        onClose={() => setIsCommandPaletteOpen(false)}
+        topics={topics}
+        onSelectTopic={setSelectedTopic}
+        onSelectTab={setCurrentTab}
+        onOpenNewTopic={() => openNewTopicModalWithPillar('dsa')}
+      />
     </div>
   );
 }
