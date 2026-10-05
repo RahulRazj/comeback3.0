@@ -30,6 +30,10 @@ const TAB_TITLES: Record<ViewTab, { title: string; subtitle: string }> = {
     title: 'Backend Engineering Concepts',
     subtitle: 'Framework-agnostic systems: protocols, internals, concurrency & reliability',
   },
+  ai_agentic: {
+    title: 'AI Readiness: Agentic Full-Stack Developer',
+    subtitle: 'LLMs, RAG, agents, MCP, evals, security and shipping AI products end to end',
+  },
   calendar: {
     title: '90-Day Curriculum Calendar',
     subtitle: 'Structured week-by-week timeline and daily target schedule',

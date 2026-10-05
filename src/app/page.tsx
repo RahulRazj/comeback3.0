@@ -92,6 +92,7 @@ export default function Home() {
       else if (e.key === '7') setCurrentTab('notes');
       else if (e.key === '8') setCurrentTab('analytics');
       else if (e.key === '9') setCurrentTab('sql_practice');
+      else if (e.key === '0') setCurrentTab('ai_agentic');
     };
 
     window.addEventListener('keydown', handleKeyDown);
@@ -213,7 +214,7 @@ export default function Home() {
           currentTab={currentTab}
           metrics={metrics}
           onOpenCommandPalette={() => setIsCommandPaletteOpen(true)}
-          onOpenNewTopicModal={() => openNewTopicModalWithPillar(currentTab === 'system_design' || currentTab === 'backend' ? currentTab : 'dsa')}
+          onOpenNewTopicModal={() => openNewTopicModalWithPillar(currentTab === 'system_design' || currentTab === 'backend' || currentTab === 'ai_agentic' ? currentTab : 'dsa')}
           onRefreshData={loadData}
         />
 
@@ -262,6 +263,18 @@ export default function Home() {
                 <PillarView
                   pillar="backend"
                   topics={topics.filter((t) => t.pillar === 'backend')}
+                  onOpenTopic={setSelectedTopic}
+                  onUpdateTopicStatus={handleUpdateStatus}
+                  onUpdateConfidence={handleUpdateConfidence}
+                  onSaveNotes={handleSaveNotes}
+                  onOpenNewTopicModal={openNewTopicModalWithPillar}
+                />
+              )}
+
+              {currentTab === 'ai_agentic' && (
+                <PillarView
+                  pillar="ai_agentic"
+                  topics={topics.filter((t) => t.pillar === 'ai_agentic')}
                   onOpenTopic={setSelectedTopic}
                   onUpdateTopicStatus={handleUpdateStatus}
                   onUpdateConfidence={handleUpdateConfidence}

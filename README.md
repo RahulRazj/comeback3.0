@@ -98,7 +98,7 @@ An in-browser SQL IDE and interactive sandbox with real-time query execution:
 
 ## 🎯 How Daily Learning Works (Interactivity Guide)
 
-Every topic in the curriculum is actionable and saves to the SQLite database instantly:
+Every topic in the curriculum is actionable and saves to `data/progress.json` instantly:
 
 ```
 [✓] Tick Status  |  [🌱 Level 1: Need Practice ▾]  |  [ ⭐⭐⭐⭐⭐ ]  |  [ 💬 Inline Comment... ]
@@ -123,7 +123,7 @@ Track your depth of understanding by choosing one of the 5 levels in the dropdow
 ### 3. Inline Quick Comments
 - Click the comment icon or text box next to any topic.
 - Type your personal "Aha!" realization, tricky bug, or reminder (e.g., *"Remember to check for cycle start with 2(F+a) proof"*).
-- Automatically saves to SQLite upon blurring or pressing Enter.
+- Automatically saves upon blurring or pressing Enter.
 
 ### 4. Leitner 5-Box Spaced Repetition Engine
 Permanent long-term memory retention through spaced retrieval practice:
@@ -144,44 +144,22 @@ Permanent long-term memory retention through spaced retrieval practice:
 
 ---
 
-## 💾 Database & Storage Architecture
+## 💾 Storage (File-Based, No Database)
 
-### Where Does SQLite Lie?
-- The database is stored locally at:
-  ```
-  progress-tracker/data/interview_command_center.db
-  ```
-- **Write-Ahead Logging (WAL)**: Enabled via `PRAGMA journal_mode = WAL;` for high-concurrency non-blocking reads and atomic writes.
-- **Relational Integrity**: Foreign keys enabled (`PRAGMA foreign_keys = ON;`) cascading from `topics` to `reviews`.
-- **Tables**:
-  - `topics`: All 157 curriculum problems with notes, code snippets, confidence levels, and Leitner boxes.
-  - `reviews`: Spaced repetition logs capturing each review rating and box transition.
-  - `daily_logs`: Daily completion counts, study minutes, and streak calculations.
-  - `app_settings`: Journey start date, target days (90), and daily goals.
+All progress lives in a single JSON file:
 
----
+```
+data/progress.json
+```
 
-## 🌐 Deploying to Vercel & Production
-
-### Why Local SQLite Needs Turso on Vercel
-Vercel serverless functions are **stateless and ephemeral**:
-- The local filesystem on Vercel is read-only (except `/tmp`).
-- Any database file written to `/tmp` is wiped when the serverless container spins down.
-
-### Cloud Deployment Options:
-1. **Option A: Vercel + Turso (Recommended for Serverless)**
-   - Turso provides a serverless SQLite database powered by `libSQL`.
-   - Install client: `npm install @libsql/client`
-   - Point your connection string to your Turso cloud database URL.
-   - Deploy to Vercel with zero filesystem restrictions.
-   - *See [VERCEL_DEPLOYMENT.md](file:///Users/fakirmohanpatra/Projects/progress-tracker/VERCEL_DEPLOYMENT.md) for full step-by-step instructions.*
-
-2. **Option B: Persistent Docker Deployment (Railway, Fly.io, or VPS)**
-   - Run the provided Dockerfile with a mounted persistent volume at `/app/data`.
-   - Keeps your zero-configuration `better-sqlite3` file storage 100% intact.
+- Created automatically on first run, pre-seeded with all 157 topics.
+- Every action (status tick, comment, review, study time) is written immediately. Writes are atomic (temp file + rename).
+- Contents: `settings`, `topics`, `reviews` (spaced repetition logs), `daily_logs` (heatmap/streak data).
+- **Backup**: copy `data/progress.json`. **Reset**: delete it (or use the reset action) and restart.
+- Intended for local, single-user use (`npm run dev` / `npm run build && npm start`). It will not persist on serverless hosts like Vercel.
+- The SQL Practice Console still uses a throwaway in-memory SQLite sandbox (`better-sqlite3`); it stores nothing.
 
 ---
-
 ## ⌨️ Keyboard Navigation Shortcuts
 
 | Key | Destination / Action |

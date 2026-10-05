@@ -57,10 +57,14 @@ export function PillarView({
       ? 'DSA (LeetCode)'
       : pillar === 'system_design'
       ? 'System Design'
+      : pillar === 'ai_agentic'
+      ? 'AI Readiness: Agentic Full-Stack Developer'
       : 'Backend Engineering (.NET SDE2)';
 
   const pillarSubtitle =
-    pillar === 'backend'
+    pillar === 'ai_agentic'
+      ? 'LLMs, RAG, agents, MCP, evals, security and shipping AI-powered full-stack products'
+      : pillar === 'backend'
       ? 'Targeting SDE2 / Senior .NET Backend Roles (20-25+ LPA) — Core, Daily Work & Production Skills'
       : pillar === 'dsa'
       ? 'Highest Priority — Blind 75 / High-Yield Algorithms & Patterns'
@@ -147,7 +151,7 @@ export function PillarView({
           <div>
             <div className="flex items-center gap-2">
               <span className="text-xs font-mono font-semibold uppercase px-2.5 py-0.5 rounded bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-                {pillar === 'backend' ? 'Target: SDE2 / Senior .NET (20-25+ LPA)' : pillar === 'dsa' ? 'Pillar 1 • Highest Priority' : 'Pillar 2 • Architecture'}
+                {pillar === 'ai_agentic' ? 'Pillar 4 • AI Readiness' : pillar === 'backend' ? 'Target: SDE2 / Senior .NET (20-25+ LPA)' : pillar === 'dsa' ? 'Pillar 1 • Highest Priority' : 'Pillar 2 • Architecture'}
               </span>
               <span className="text-xs font-mono text-slate-400">
                 Tick to complete • Choose readiness • Comment

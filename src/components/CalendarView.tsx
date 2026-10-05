@@ -19,7 +19,7 @@ interface CalendarViewProps {
 }
 
 export function CalendarView({ topics, metrics, onOpenTopic }: CalendarViewProps) {
-  const currentDay = metrics?.currentDay || 26;
+  const currentDay = metrics?.currentDay || 1;
   const [selectedDay, setSelectedDay] = useState<number>(currentDay);
 
   // Group topics by day_target (1 to 90)
@@ -182,6 +182,8 @@ export function CalendarView({ topics, metrics, onOpenTopic }: CalendarViewProps
                     ? 'border-emerald-500/30 text-emerald-400 bg-emerald-500/10'
                     : topic.pillar === 'system_design'
                     ? 'border-indigo-500/30 text-indigo-400 bg-indigo-500/10'
+                    : topic.pillar === 'ai_agentic'
+                    ? 'border-fuchsia-500/30 text-fuchsia-400 bg-fuchsia-500/10'
                     : 'border-amber-500/30 text-amber-400 bg-amber-500/10';
 
                 return (

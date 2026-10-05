@@ -124,6 +124,14 @@ export function NotesView({ topics, onSaveNotes }: NotesViewProps) {
               >
                 BE
               </button>
+              <button
+                onClick={() => setPillarFilter('ai_agentic')}
+                className={`flex-1 py-1 rounded text-center transition-all ${
+                  pillarFilter === 'ai_agentic' ? 'bg-fuchsia-500/20 text-fuchsia-300 font-bold' : 'text-slate-400'
+                }`}
+              >
+                AI
+              </button>
             </div>
 
             {/* Search */}

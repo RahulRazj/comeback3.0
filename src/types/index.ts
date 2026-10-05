@@ -1,4 +1,4 @@
-export type PillarType = 'dsa' | 'system_design' | 'backend';
+export type PillarType = 'dsa' | 'system_design' | 'backend' | 'ai_agentic';
 
 export type TopicStatus = 'pending' | 'in_progress' | 'completed' | 'mastered';
 
@@ -143,6 +143,7 @@ export interface DashboardMetrics {
     dsa: PillarStats;
     system_design: PillarStats;
     backend: PillarStats;
+    ai_agentic: PillarStats;
   };
   todaysFocus: Topic[];
   dueForReview: Topic[];
@@ -160,6 +161,7 @@ export type ViewTab =
   | 'dsa'
   | 'system_design'
   | 'backend'
+  | 'ai_agentic'
   | 'calendar'
   | 'review_queue'
   | 'sql_practice'

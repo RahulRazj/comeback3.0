@@ -14,6 +14,7 @@ import {
   Code2,
   Network,
   Server,
+  Bot,
   Target,
   ExternalLink,
   Award,
@@ -228,13 +229,13 @@ export function DashboardView({
             </div>
           </div>
           <div className="text-[10px] text-slate-400 font-mono">
-            {pillars.dsa.pending} DSA • {pillars.system_design.pending} Sys • {pillars.backend.pending} BE
+            {pillars.dsa.pending} DSA • {pillars.system_design.pending} Sys • {pillars.backend.pending} BE • {pillars.ai_agentic.pending} AI
           </div>
         </div>
       </div>
 
-      {/* 3. Three Pillars Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {/* 3. Pillars Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
         {/* Pillar 1: DSA */}
         <div
           onClick={() => onSelectTab('dsa')}
@@ -360,6 +361,48 @@ export function DashboardView({
             </span>
           </div>
         </div>
+
+        {/* Pillar 4: AI & Agentic Full-Stack */}
+        <div
+          onClick={() => onSelectTab('ai_agentic')}
+          className="group relative p-5 rounded-2xl border border-slate-800/90 hover:border-fuchsia-500/40 bg-gradient-to-b from-[#170e1a] to-[#0c070d] transition-all cursor-pointer shadow-lg hover:shadow-fuchsia-950/20"
+        >
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="p-2 rounded-lg bg-fuchsia-500/10 text-fuchsia-400 border border-fuchsia-500/20">
+                <Bot className="w-4 h-4" />
+              </div>
+              <div>
+                <h3 className="text-sm font-bold text-white group-hover:text-fuchsia-300 transition-colors">
+                  AI & Agentic Full-Stack
+                </h3>
+                <span className="text-[10px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded bg-fuchsia-500/20 text-fuchsia-300">
+                  AI Readiness
+                </span>
+              </div>
+            </div>
+            <ProgressRing
+              percentage={pillars.ai_agentic.percentage}
+              size={56}
+              strokeWidth={5}
+              color="#d946ef"
+              glowColor="rgba(217, 70, 239, 0.4)"
+            />
+          </div>
+
+          <p className="text-xs text-slate-400 line-clamp-2 mb-3">
+            LLM fundamentals, RAG, tool-using agents, MCP, evals, AI security and shipping AI products end to end.
+          </p>
+
+          <div className="flex items-center justify-between text-xs pt-3 border-t border-slate-800/80 font-mono">
+            <span className="text-slate-400">
+              <strong className="text-fuchsia-400 font-semibold">{pillars.ai_agentic.completed}</strong> / {pillars.ai_agentic.total} mastered
+            </span>
+            <span className="text-fuchsia-400 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+              Open pillar <ChevronRight className="w-3 h-3" />
+            </span>
+          </div>
+        </div>
       </div>
 
       {/* 4. Two Column Layout: Today's Focus + Today's Review Queue */}
@@ -386,6 +429,8 @@ export function DashboardView({
                   ? 'border-emerald-500/30 text-emerald-400 bg-emerald-500/10'
                   : topic.pillar === 'system_design'
                   ? 'border-indigo-500/30 text-indigo-400 bg-indigo-500/10'
+                  : topic.pillar === 'ai_agentic'
+                  ? 'border-fuchsia-500/30 text-fuchsia-400 bg-fuchsia-500/10'
                   : 'border-amber-500/30 text-amber-400 bg-amber-500/10';
 
               const diffColor =
@@ -404,7 +449,7 @@ export function DashboardView({
                   <div className="flex items-center justify-between mb-1.5">
                     <div className="flex items-center gap-2">
                       <span className={`text-[10px] font-mono uppercase px-2 py-0.5 rounded border ${pillarColor}`}>
-                        {topic.pillar === 'dsa' ? 'DSA' : topic.pillar === 'system_design' ? 'Sys Design' : 'Backend'}
+                        {topic.pillar === 'dsa' ? 'DSA' : topic.pillar === 'system_design' ? 'Sys Design' : topic.pillar === 'ai_agentic' ? 'AI Agentic' : 'Backend'}
                       </span>
                       <span className="text-xs text-slate-400">{topic.category}</span>
                     </div>

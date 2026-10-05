@@ -14,6 +14,7 @@ import {
   CheckCircle2,
   ExternalLink,
   Terminal,
+  Bot,
 } from 'lucide-react';
 import { ViewTab, DashboardMetrics } from '@/types';
 
@@ -63,6 +64,14 @@ export function Sidebar({ currentTab, onSelectTab, metrics }: SidebarProps) {
       shortcut: '4',
       badge: metrics ? `${metrics.pillars.backend.completed}/${metrics.pillars.backend.total}` : undefined,
       pillarColor: 'text-amber-400',
+    },
+    {
+      id: 'ai_agentic',
+      label: 'AI & Agentic Full-Stack',
+      icon: Bot,
+      shortcut: '0',
+      badge: metrics ? `${metrics.pillars.ai_agentic.completed}/${metrics.pillars.ai_agentic.total}` : undefined,
+      pillarColor: 'text-fuchsia-400',
     },
     {
       id: 'calendar',
@@ -229,6 +238,22 @@ export function Sidebar({ currentTab, onSelectTab, metrics }: SidebarProps) {
                 <div
                   className="h-full bg-amber-500 rounded-full transition-all duration-500"
                   style={{ width: `${metrics.pillars.backend.percentage}%` }}
+                />
+              </div>
+            </div>
+
+            {/* AI & Agentic */}
+            <div>
+              <div className="flex justify-between text-[11px] mb-1">
+                <span className="text-fuchsia-400 font-medium">AI & Agentic</span>
+                <span className="text-slate-400 font-mono">
+                  {metrics.pillars.ai_agentic.percentage}%
+                </span>
+              </div>
+              <div className="w-full h-1 bg-slate-800 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-fuchsia-500 rounded-full transition-all duration-500"
+                  style={{ width: `${metrics.pillars.ai_agentic.percentage}%` }}
                 />
               </div>
             </div>

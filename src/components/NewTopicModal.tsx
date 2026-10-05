@@ -49,7 +49,7 @@ export function NewTopicModal({
         pitfalls,
         code_snippet: codeSnippet || null,
         notes: `### ${title}\n- Added to custom curriculum.\n- Category: ${category}`,
-        priority: pillar === 'dsa' ? 1 : pillar === 'system_design' ? 2 : 3,
+        priority: pillar === 'dsa' ? 1 : pillar === 'system_design' ? 2 : pillar === 'ai_agentic' ? 2 : 3,
         status: 'pending',
         confidence: 0,
         box: 1,
@@ -96,7 +96,7 @@ export function NewTopicModal({
             <label className="block text-slate-400 font-mono text-[11px] mb-1.5">
               Curriculum Pillar *
             </label>
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
               <button
                 type="button"
                 onClick={() => setPillar('dsa')}
@@ -129,6 +129,17 @@ export function NewTopicModal({
                 }`}
               >
                 Backend Engineering
+              </button>
+              <button
+                type="button"
+                onClick={() => setPillar('ai_agentic')}
+                className={`py-2 rounded-xl border text-center transition-all ${
+                  pillar === 'ai_agentic'
+                    ? 'border-fuchsia-500 bg-fuchsia-500/10 text-fuchsia-300 font-bold'
+                    : 'border-slate-800 bg-slate-900/60 text-slate-400'
+                }`}
+              >
+                AI & Agentic
               </button>
             </div>
           </div>

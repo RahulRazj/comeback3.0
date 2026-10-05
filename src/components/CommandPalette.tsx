@@ -14,6 +14,7 @@ import {
   Clock,
   Sparkles,
   ArrowRight,
+  Bot,
 } from 'lucide-react';
 import { Topic, ViewTab } from '@/types';
 
@@ -79,6 +80,7 @@ export function CommandPalette({
     { label: 'Go to DSA (LeetCode)', tab: 'dsa' as ViewTab, icon: Code2 },
     { label: 'Go to System Design', tab: 'system_design' as ViewTab, icon: Network },
     { label: 'Go to Backend Engineering', tab: 'backend' as ViewTab, icon: Server },
+    { label: 'Go to AI & Agentic Full-Stack', tab: 'ai_agentic' as ViewTab, icon: Bot },
     { label: 'Go to Review Queue', tab: 'review_queue' as ViewTab, icon: RotateCw },
     { label: 'Go to 90-Day Calendar', tab: 'calendar' as ViewTab, icon: Calendar },
     { label: 'Go to Notes & Cheatsheets', tab: 'notes' as ViewTab, icon: FileText },
@@ -124,6 +126,8 @@ export function CommandPalette({
                     ? 'text-emerald-400 bg-emerald-500/10'
                     : topic.pillar === 'system_design'
                     ? 'text-indigo-400 bg-indigo-500/10'
+                    : topic.pillar === 'ai_agentic'
+                    ? 'text-fuchsia-400 bg-fuchsia-500/10'
                     : 'text-amber-400 bg-amber-500/10';
 
                 return (
@@ -144,7 +148,7 @@ export function CommandPalette({
                       </div>
                     </div>
                     <span className={`text-[10px] font-mono uppercase px-2 py-0.5 rounded flex-shrink-0 ${pillarBadge}`}>
-                      {topic.pillar === 'dsa' ? 'DSA' : topic.pillar === 'system_design' ? 'Sys' : 'BE'}
+                      {topic.pillar === 'dsa' ? 'DSA' : topic.pillar === 'system_design' ? 'Sys' : topic.pillar === 'ai_agentic' ? 'AI' : 'BE'}
                     </span>
                   </button>
                 );

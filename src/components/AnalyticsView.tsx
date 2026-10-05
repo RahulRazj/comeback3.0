@@ -203,6 +203,22 @@ export function AnalyticsView({ metrics, topics }: AnalyticsViewProps) {
                 />
               </div>
             </div>
+
+            {/* AI & Agentic Full-Stack */}
+            <div>
+              <div className="flex justify-between text-xs mb-1.5 font-medium">
+                <span className="text-fuchsia-400">AI Readiness: Agentic Full-Stack</span>
+                <span className="font-mono text-slate-300">
+                  {pillars.ai_agentic.completed} / {pillars.ai_agentic.total} ({pillars.ai_agentic.percentage}%)
+                </span>
+              </div>
+              <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-fuchsia-500 rounded-full transition-all duration-700"
+                  style={{ width: `${pillars.ai_agentic.percentage}%` }}
+                />
+              </div>
+            </div>
           </div>
         </div>
 
