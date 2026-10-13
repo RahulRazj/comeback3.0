@@ -15,6 +15,7 @@ import {
   ExternalLink,
   Terminal,
   Bot,
+  Inbox,
 } from 'lucide-react';
 import { ViewTab, DashboardMetrics } from '@/types';
 
@@ -87,6 +88,14 @@ export function Sidebar({ currentTab, onSelectTab, metrics }: SidebarProps) {
       badge: metrics && metrics.dueForReviewCount > 0 ? `${metrics.dueForReviewCount} due` : undefined,
     },
     {
+      id: 'backlog',
+      label: 'Backlog',
+      icon: Inbox,
+      shortcut: 'b',
+      badge: metrics?.backlog.length || undefined,
+      pillarColor: 'text-rose-300',
+    },
+    {
       id: 'notes',
       label: 'Notes & Cheatsheets',
       icon: FileText,
@@ -110,7 +119,7 @@ export function Sidebar({ currentTab, onSelectTab, metrics }: SidebarProps) {
   return (
     <aside className="w-64 flex-shrink-0 flex flex-col justify-between h-screen border-r border-slate-800/80 bg-[#090a0f] text-slate-300 select-none">
       {/* Brand Header */}
-      <div>
+      <div className="min-h-0 overflow-y-auto">
         <div className="p-5 border-b border-slate-800/80 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-emerald-400 flex items-center justify-center shadow-lg shadow-indigo-500/20">

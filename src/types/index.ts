@@ -1,3 +1,5 @@
+import type { BacklogEntry } from '../lib/backlog';
+
 export type PillarType = 'dsa' | 'system_design' | 'backend' | 'ai_agentic';
 
 export type TopicStatus = 'pending' | 'in_progress' | 'completed' | 'mastered';
@@ -147,6 +149,7 @@ export interface DashboardMetrics {
   };
   todaysFocus: Topic[];
   dueForReview: Topic[];
+  backlog: BacklogEntry[];
   upcomingRevisions: {
     date: string;
     dayLabel: string;
@@ -164,6 +167,7 @@ export type ViewTab =
   | 'ai_agentic'
   | 'calendar'
   | 'review_queue'
+  | 'backlog'
   | 'sql_practice'
   | 'notes'
   | 'analytics';

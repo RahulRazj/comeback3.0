@@ -1,6 +1,6 @@
 {
   "settings": {
-    "start_date": "2026-10-05",
+    "start_date": "2026-10-12",
     "target_days": "90",
     "daily_target_topics": "3",
     "seeded_ai_agentic": "1"
@@ -30,8 +30,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-26",
@@ -57,8 +57,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-27",
@@ -84,8 +84,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-88",
@@ -111,8 +111,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-121",
@@ -138,8 +138,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-169",
@@ -165,8 +165,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-238",
@@ -192,8 +192,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-283",
@@ -219,8 +219,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-11",
@@ -246,8 +246,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-15",
@@ -273,8 +273,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-125",
@@ -300,8 +300,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-167",
@@ -327,8 +327,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-3",
@@ -354,8 +354,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-209",
@@ -381,8 +381,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-424",
@@ -408,8 +408,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-567",
@@ -435,8 +435,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-643",
@@ -462,8 +462,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-1004",
@@ -489,8 +489,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-1480",
@@ -516,8 +516,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-560",
@@ -543,8 +543,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-724",
@@ -570,8 +570,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-35",
@@ -597,8 +597,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-69",
@@ -624,8 +624,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-278",
@@ -651,8 +651,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-704",
@@ -678,8 +678,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-875",
@@ -705,8 +705,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-1011",
@@ -732,8 +732,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-49",
@@ -759,8 +759,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-128",
@@ -786,8 +786,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-217",
@@ -813,8 +813,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-242",
@@ -840,8 +840,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-347",
@@ -867,8 +867,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-20",
@@ -894,8 +894,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-155",
@@ -921,8 +921,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-394",
@@ -948,8 +948,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-739",
@@ -975,8 +975,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-225",
@@ -1002,8 +1002,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-232",
@@ -1029,8 +1029,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-933",
@@ -1056,8 +1056,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-21",
@@ -1083,8 +1083,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-141",
@@ -1110,8 +1110,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-142",
@@ -1137,8 +1137,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-160",
@@ -1164,8 +1164,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-206",
@@ -1191,8 +1191,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-234",
@@ -1218,8 +1218,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-94",
@@ -1245,8 +1245,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-98",
@@ -1272,8 +1272,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-100",
@@ -1299,8 +1299,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-102",
@@ -1326,8 +1326,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-104",
@@ -1353,8 +1353,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-110",
@@ -1380,8 +1380,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-226",
@@ -1407,8 +1407,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-235",
@@ -1434,8 +1434,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-236",
@@ -1461,8 +1461,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-543",
@@ -1488,8 +1488,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-215",
@@ -1515,8 +1515,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-295",
@@ -1542,8 +1542,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-703",
@@ -1569,8 +1569,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-56",
@@ -1596,8 +1596,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-57",
@@ -1623,8 +1623,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-252",
@@ -1650,8 +1650,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-253",
@@ -1677,8 +1677,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-54",
@@ -1704,8 +1704,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-73",
@@ -1731,8 +1731,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-74",
@@ -1758,8 +1758,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-79",
@@ -1785,8 +1785,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-200",
@@ -1812,8 +1812,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-133",
@@ -1839,8 +1839,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-207",
@@ -1866,8 +1866,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-210",
@@ -1893,8 +1893,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-417",
@@ -1920,8 +1920,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-547",
@@ -1947,8 +1947,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-994",
@@ -1974,8 +1974,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-695",
@@ -2001,8 +2001,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-733",
@@ -2028,8 +2028,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-208",
@@ -2055,8 +2055,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-211",
@@ -2082,8 +2082,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-17",
@@ -2109,8 +2109,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-39",
@@ -2136,8 +2136,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-46",
@@ -2163,8 +2163,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-78",
@@ -2190,8 +2190,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-90",
@@ -2217,8 +2217,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-70",
@@ -2244,8 +2244,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-509",
@@ -2271,8 +2271,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-746",
@@ -2298,8 +2298,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-198",
@@ -2325,8 +2325,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-213",
@@ -2352,8 +2352,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-322",
@@ -2379,8 +2379,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-300",
@@ -2406,8 +2406,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-416",
@@ -2433,8 +2433,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-1143",
@@ -2460,8 +2460,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-72",
@@ -2487,8 +2487,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-42",
@@ -2514,8 +2514,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-76",
@@ -2541,8 +2541,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-84",
@@ -2568,8 +2568,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-127",
@@ -2595,8 +2595,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-10",
@@ -2622,8 +2622,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-32",
@@ -2649,8 +2649,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "dsa-lc-312",
@@ -2676,8 +2676,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-scaling-fundamentals",
@@ -2703,8 +2703,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-load-balancing",
@@ -2730,8 +2730,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-consistent-hashing",
@@ -2757,8 +2757,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-caching-strategies",
@@ -2784,8 +2784,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-cap-theorem-pacelc",
@@ -2811,8 +2811,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-database-sharding",
@@ -2838,8 +2838,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-sql-vs-nosql",
@@ -2865,8 +2865,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-message-queues-event-streaming",
@@ -2892,8 +2892,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-distributed-transactions-saga",
@@ -2919,8 +2919,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-replication-quorum",
@@ -2946,8 +2946,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-api-protocols-serialization",
@@ -2973,8 +2973,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-distributed-id-generation",
@@ -3000,8 +3000,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-tinyurl",
@@ -3027,8 +3027,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-rate-limiter",
@@ -3054,8 +3054,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-chat-system",
@@ -3081,8 +3081,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-video-streaming",
@@ -3108,8 +3108,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-flash-sale",
@@ -3135,8 +3135,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-web-crawler",
@@ -3162,8 +3162,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-key-value-store",
@@ -3189,8 +3189,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-proximity-service",
@@ -3216,8 +3216,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-ride-sharing",
@@ -3243,8 +3243,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-social-news-feed",
@@ -3270,8 +3270,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-notification-service",
@@ -3297,8 +3297,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-task-scheduler",
@@ -3324,8 +3324,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "sys-design-metrics-monitoring",
@@ -3351,8 +3351,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-csharp-records-structs",
@@ -3378,8 +3378,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-csharp-interfaces-generics",
@@ -3405,8 +3405,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-csharp-linq-deferred-execution",
@@ -3432,8 +3432,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-csharp-delegates-events",
@@ -3459,8 +3459,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-csharp-idisposable-using",
@@ -3486,8 +3486,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-async-await-state-machine",
@@ -3513,8 +3513,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-async-task-whenall-cancellation",
@@ -3540,8 +3540,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-async-configureawait-context",
@@ -3567,8 +3567,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-aspnet-middleware-pipeline",
@@ -3594,8 +3594,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-aspnet-controllers-vs-minimal-apis",
@@ -3621,8 +3621,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-aspnet-filters-validation",
@@ -3648,8 +3648,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-di-lifetimes-captive-dependencies",
@@ -3675,8 +3675,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-sql-joins-indexes-optimization",
@@ -3702,8 +3702,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-efcore-asnotracking-performance",
@@ -3729,8 +3729,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-efcore-n-plus-1-include-split",
@@ -3756,8 +3756,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-api-design-rest-pagination-idempotency",
@@ -3783,8 +3783,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-auth-jwt-claims-policies",
@@ -3810,8 +3810,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-messaging-kafka-internals",
@@ -3837,8 +3837,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-messaging-nats-jetstream",
@@ -3864,8 +3864,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-messaging-dlq-idempotent-consumer",
@@ -3891,8 +3891,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-grpc-protobuf-streaming",
@@ -3918,8 +3918,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-background-channels-hosted-services",
@@ -3945,8 +3945,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-caching-redis-cache-aside",
@@ -3972,8 +3972,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-logging-opentelemetry-serilog",
@@ -3999,8 +3999,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-testing-xunit-webapplicationfactory",
@@ -4026,8 +4026,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-docker-multistage-dotnet",
@@ -4053,8 +4053,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-cicd-github-actions-azure-devops",
@@ -4080,8 +4080,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-git-branching-rebase-conflict",
@@ -4107,8 +4107,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-prod-polly-resilience-circuit-breaker",
@@ -4134,8 +4134,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-prod-memory-gc-generations",
@@ -4161,8 +4161,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-prod-rate-limiting-dotnet",
@@ -4188,8 +4188,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-prod-concurrency-semaphores-locks",
@@ -4215,8 +4215,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "be-prod-configuration-feature-flags",
@@ -4242,8 +4242,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T08:48:58.154Z",
-      "updated_at": "2026-10-05T08:48:58.154Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-tokens-context-windows-cost-math",
@@ -4269,8 +4269,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-how-llms-work-transformers-attention-kv-cache",
@@ -4296,8 +4296,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-sampling-temperature-top-p-top-k-stop-sequences",
@@ -4323,8 +4323,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-model-selection-frontier-vs-small-vs-open-weight",
@@ -4350,8 +4350,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-structured-outputs-json-schema",
@@ -4377,8 +4377,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-embeddings-semantic-similarity",
@@ -4404,8 +4404,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-system-prompts-roles-instruction-hierarchy",
@@ -4431,8 +4431,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-few-shot-chain-of-thought-reasoning-models",
@@ -4458,8 +4458,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-context-engineering-for-agents",
@@ -4485,8 +4485,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-prompt-templates-versioning-regression-testing",
@@ -4512,8 +4512,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-rag-architecture-ingestion-to-generation",
@@ -4539,8 +4539,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-chunking-strategies-metadata",
@@ -4566,8 +4566,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-vector-databases-ann-indexes-pgvector",
@@ -4593,8 +4593,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-hybrid-search-rrf-reranking",
@@ -4620,8 +4620,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-advanced-rag-query-rewriting-hyde-agentic-rag-graphrag",
@@ -4647,8 +4647,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-evaluating-rag-faithfulness-relevance-retrieval-quality",
@@ -4674,8 +4674,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-workflows-vs-agents-choosing-the-right-pattern",
@@ -4701,8 +4701,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-the-agent-loop-react",
@@ -4728,8 +4728,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-tool-function-calling-design",
@@ -4755,8 +4755,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-planning-reflection-self-correction",
@@ -4782,8 +4782,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-agent-memory-short-term-long-term-episodic",
@@ -4809,8 +4809,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-multi-agent-systems-supervisor-handoffs-sub-agents",
@@ -4836,8 +4836,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-model-context-protocol-mcp",
@@ -4863,8 +4863,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-agent-to-agent-a2a-interoperability",
@@ -4890,8 +4890,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-langgraph-stateful-agent-graphs-checkpoints-human-in-the-loo",
@@ -4917,8 +4917,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-net-ai-stack-microsoft-extensions-ai-agent-framework",
@@ -4944,8 +4944,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-vercel-ai-sdk-typescript-agent-sdks",
@@ -4971,8 +4971,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-streaming-responses-sse-backpressure-cancellation",
@@ -4998,8 +4998,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-building-the-chat-ui-usechat-tool-rendering-generative-ui",
@@ -5025,8 +5025,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-llm-backends-in-net-node-api-design-auth-multi-tenancy",
@@ -5052,8 +5052,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-long-running-agent-jobs-queues-durable-execution-resumabilit",
@@ -5079,8 +5079,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-cost-latency-control-caching-routing-rate-limits-budgets",
@@ -5106,8 +5106,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-building-eval-datasets-llm-as-judge",
@@ -5133,8 +5133,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-tracing-observability-with-opentelemetry-genai",
@@ -5160,8 +5160,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-evaluating-agents-trajectories-tool-accuracy-reliability",
@@ -5187,8 +5187,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-guardrails-monitoring-feedback-loops",
@@ -5214,8 +5214,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-owasp-top-10-for-llm-applications",
@@ -5241,8 +5241,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-prompt-injection-the-lethal-trifecta",
@@ -5268,8 +5268,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-tool-permissions-sandboxing-human-in-the-loop",
@@ -5295,8 +5295,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-privacy-pii-handling-compliance-for-ai-features",
@@ -5322,8 +5322,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-reliability-retries-fallbacks-model-routing-llm-gateways",
@@ -5349,8 +5349,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-prompting-vs-rag-vs-fine-tuning-lora-distillation",
@@ -5376,8 +5376,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-local-open-weight-models-ollama-vllm-quantization",
@@ -5403,8 +5403,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-latency-optimisation-deploying-ai-services",
@@ -5430,8 +5430,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-agentic-coding-workflows-copilot-agent-claude-code-cursor",
@@ -5457,8 +5457,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-spec-driven-development-reviewing-ai-generated-code",
@@ -5484,8 +5484,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-testing-ai-features-using-ai-to-write-tests",
@@ -5511,8 +5511,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-design-an-enterprise-rag-chatbot",
@@ -5538,8 +5538,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-design-a-coding-agent",
@@ -5565,8 +5565,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-design-an-ai-customer-support-agent-with-human-handoff",
@@ -5592,8 +5592,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-design-an-llm-gateway-ai-platform",
@@ -5619,8 +5619,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-capstone-1-rag-q-a-over-your-own-docs-next-js-pgvector",
@@ -5646,8 +5646,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-capstone-2-tool-using-agent-with-a-custom-mcp-server-net-or-",
@@ -5673,8 +5673,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     },
     {
       "id": "ai-capstone-3-multi-agent-research-assistant-with-evals-tracing",
@@ -5700,8 +5700,8 @@
       "next_review_at": null,
       "times_reviewed": 0,
       "completed_at": null,
-      "created_at": "2026-10-05T09:03:43.631Z",
-      "updated_at": "2026-10-05T09:03:43.631Z"
+      "created_at": "2026-10-12T11:16:46.382Z",
+      "updated_at": "2026-10-12T11:16:46.382Z"
     }
   ],
   "reviews": [],

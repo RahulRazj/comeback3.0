@@ -15,6 +15,7 @@ import {
   Sparkles,
   ArrowRight,
   Bot,
+  Inbox,
 } from 'lucide-react';
 import { Topic, ViewTab } from '@/types';
 
@@ -82,6 +83,7 @@ export function CommandPalette({
     { label: 'Go to Backend Engineering', tab: 'backend' as ViewTab, icon: Server },
     { label: 'Go to AI & Agentic Full-Stack', tab: 'ai_agentic' as ViewTab, icon: Bot },
     { label: 'Go to Review Queue', tab: 'review_queue' as ViewTab, icon: RotateCw },
+    { label: 'Go to Backlog', tab: 'backlog' as ViewTab, icon: Inbox },
     { label: 'Go to 90-Day Calendar', tab: 'calendar' as ViewTab, icon: Calendar },
     { label: 'Go to Notes & Cheatsheets', tab: 'notes' as ViewTab, icon: FileText },
     { label: 'Go to Analytics', tab: 'analytics' as ViewTab, icon: BarChart3 },

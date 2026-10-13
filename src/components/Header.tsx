@@ -42,6 +42,10 @@ const TAB_TITLES: Record<ViewTab, { title: string; subtitle: string }> = {
     title: 'Spaced Repetition Command Deck',
     subtitle: 'Leitner 5-box review system for permanent long-term memory retention',
   },
+  backlog: {
+    title: 'Backlog',
+    subtitle: 'Missed curriculum dates and unfinished topics',
+  },
   notes: {
     title: 'Knowledge Base & Notes',
     subtitle: 'Notion-inspired engineering notebook, mental models, and cheatsheets',

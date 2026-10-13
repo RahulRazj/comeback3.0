@@ -29,6 +29,7 @@ interface PillarViewProps {
   onUpdateConfidence: (id: string, confidence: number) => Promise<void>;
   onSaveNotes?: (id: string, notes: string, intuition: string, pitfalls: string) => Promise<void>;
   onOpenNewTopicModal: (defaultPillar: PillarType) => void;
+  onMarkRevision: (id: string) => Promise<void>;
 }
 
 export function PillarView({
@@ -39,6 +40,7 @@ export function PillarView({
   onUpdateConfidence,
   onSaveNotes,
   onOpenNewTopicModal,
+  onMarkRevision,
 }: PillarViewProps) {
   const [search, setSearch] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('ALL');
@@ -51,6 +53,20 @@ export function PillarView({
   const [activeCommentId, setActiveCommentId] = useState<string | null>(null);
   const [quickCommentText, setQuickCommentText] = useState('');
   const [justSavedId, setJustSavedId] = useState<string | null>(null);
+  const [markingRevisionIds, setMarkingRevisionIds] = useState<string[]>([]);
+  const [revisionError, setRevisionError] = useState<string | null>(null);
+
+  const handleMarkRevision = async (id: string) => {
+    setMarkingRevisionIds((previous) => [...previous, id]);
+    setRevisionError(null);
+    try {
+      await onMarkRevision(id);
+    } catch (error) {
+      setRevisionError(error instanceof Error ? error.message : 'Could not mark question for revision.');
+    } finally {
+      setMarkingRevisionIds((previous) => previous.filter((topicId) => topicId !== id));
+    }
+  };
 
   const pillarTitle =
     pillar === 'dsa'
@@ -262,6 +278,7 @@ export function PillarView({
       </div>
 
       {/* Topics List Table */}
+      {revisionError && <p role="alert" className="text-xs text-rose-300">{revisionError}</p>}
       <div className="rounded-2xl border border-slate-800/80 bg-[#0c0e15] overflow-hidden shadow-xl">
         <div className="px-5 py-3 border-b border-slate-800/80 flex items-center justify-between text-[11px] font-mono uppercase text-slate-500">
           <div className="flex items-center gap-4">
@@ -385,6 +402,20 @@ export function PillarView({
                           ))}
                         </select>
                       </div>
+
+                      <button
+                        type="button"
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          void handleMarkRevision(topic.id);
+                        }}
+                        disabled={Boolean(isDue) || markingRevisionIds.includes(topic.id)}
+                        aria-label={isDue ? 'Due for revision' : `Mark ${topic.title} for revision`}
+                        title={isDue ? 'Due for revision' : 'Mark for revision'}
+                        className="p-1.5 rounded-lg border border-slate-800 text-rose-300 hover:bg-slate-800 disabled:opacity-50"
+                      >
+                        <RotateCw className={`w-3.5 h-3.5 ${markingRevisionIds.includes(topic.id) ? 'animate-spin' : ''}`} />
+                      </button>
 
                       {/* Comment Action Button */}
                       <button

@@ -25,6 +25,7 @@ interface TopicModalProps {
   onUpdateConfidence: (id: string, confidence: number) => Promise<void>;
   onSaveNotes: (id: string, notes: string, intuition: string, pitfalls: string) => Promise<void>;
   onDeleteTopic?: (id: string) => Promise<void>;
+  onMarkRevision: (id: string) => Promise<void>;
 }
 
 export function TopicModal({
@@ -34,6 +35,7 @@ export function TopicModal({
   onUpdateConfidence,
   onSaveNotes,
   onDeleteTopic,
+  onMarkRevision,
 }: TopicModalProps) {
   const [activeTab, setActiveTab] = useState<'overview' | 'notes' | 'code'>('overview');
   const [copiedCode, setCopiedCode] = useState(false);
@@ -41,8 +43,23 @@ export function TopicModal({
   const [intuition, setIntuition] = useState(topic?.key_intuition || '');
   const [pitfalls, setPitfalls] = useState(topic?.pitfalls || '');
   const [isSaved, setIsSaved] = useState(false);
+  const [markingRevision, setMarkingRevision] = useState(false);
+  const [revisionError, setRevisionError] = useState<string | null>(null);
 
   if (!topic) return null;
+
+  const isDue = Boolean(topic.next_review_at && new Date(topic.next_review_at).getTime() <= Date.now());
+  const handleMarkRevision = async () => {
+    setMarkingRevision(true);
+    setRevisionError(null);
+    try {
+      await onMarkRevision(topic.id);
+    } catch (error) {
+      setRevisionError(error instanceof Error ? error.message : 'Could not mark question for revision.');
+    } finally {
+      setMarkingRevision(false);
+    }
+  };
 
   const handleCopy = () => {
     if (topic.code_snippet) {
@@ -159,6 +176,17 @@ export function TopicModal({
               <option value="5">🏆 Level 5: Mastered & Deep</option>
             </select>
           </div>
+
+          <button
+            type="button"
+            onClick={handleMarkRevision}
+            disabled={markingRevision || isDue}
+            className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-rose-500/30 text-rose-300 hover:bg-rose-500/10 disabled:opacity-60"
+          >
+            <RotateCw className="w-3.5 h-3.5" />
+            {markingRevision ? 'Saving...' : isDue ? 'Due for revision' : 'Mark for revision'}
+          </button>
+          {revisionError && <p role="alert" className="text-rose-300">{revisionError}</p>}
 
           {/* Leitner Box indicator */}
           <div className="flex items-center gap-1.5 font-mono text-[11px] text-slate-400">
