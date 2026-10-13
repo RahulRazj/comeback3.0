@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { DashboardView } from '@/components/DashboardView';
 import { PillarView } from '@/components/PillarView';
 import { CalendarView } from '@/components/CalendarView';
+import { BacklogView } from '@/components/BacklogView';
 import { ReviewQueueView } from '@/components/ReviewQueueView';
 import { NotesView } from '@/components/NotesView';
 import { AnalyticsView } from '@/components/AnalyticsView';
@@ -93,6 +94,7 @@ export default function Home() {
       else if (e.key === '8') setCurrentTab('analytics');
       else if (e.key === '9') setCurrentTab('sql_practice');
       else if (e.key === '0') setCurrentTab('ai_agentic');
+      else if (e.key.toLowerCase() === 'b' && !e.ctrlKey && !e.metaKey && !e.altKey) setCurrentTab('backlog');
     };
 
     window.addEventListener('keydown', handleKeyDown);
@@ -109,13 +111,14 @@ export default function Home() {
       setSelectedTopic((prev) => (prev ? { ...prev, status } : null));
     }
 
-    await fetch(`/api/topics/${id}`, {
+    const response = await fetch(`/api/topics/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ status }),
     });
 
-    loadData();
+    await loadData();
+    if (!response.ok) throw new Error('Could not update question status. Please try again.');
   };
 
   const handleUpdateConfidence = async (id: string, confidence: number) => {
@@ -133,6 +136,20 @@ export default function Home() {
     });
 
     loadData();
+  };
+
+  const handleMarkRevision = async (id: string) => {
+    const response = await fetch(`/api/topics/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ next_review_at: new Date().toISOString() }),
+    });
+    if (!response.ok) throw new Error('Could not mark question for revision. Please try again.');
+
+    const { topic: updatedTopic } = await response.json();
+    setTopics((previous) => previous.map((topic) => topic.id === id ? updatedTopic : topic));
+    setSelectedTopic((previous) => previous?.id === id ? updatedTopic : previous);
+    await loadData();
   };
 
   const handleQuickReview = async (topicId: string, outcome: ReviewOutcome, confidence: number) => {
@@ -238,6 +255,7 @@ export default function Home() {
               {currentTab === 'dsa' && (
                 <PillarView
                   pillar="dsa"
+                  onMarkRevision={handleMarkRevision}
                   topics={topics.filter((t) => t.pillar === 'dsa')}
                   onOpenTopic={setSelectedTopic}
                   onUpdateTopicStatus={handleUpdateStatus}
@@ -250,6 +268,7 @@ export default function Home() {
               {currentTab === 'system_design' && (
                 <PillarView
                   pillar="system_design"
+                  onMarkRevision={handleMarkRevision}
                   topics={topics.filter((t) => t.pillar === 'system_design')}
                   onOpenTopic={setSelectedTopic}
                   onUpdateTopicStatus={handleUpdateStatus}
@@ -262,6 +281,7 @@ export default function Home() {
               {currentTab === 'backend' && (
                 <PillarView
                   pillar="backend"
+                  onMarkRevision={handleMarkRevision}
                   topics={topics.filter((t) => t.pillar === 'backend')}
                   onOpenTopic={setSelectedTopic}
                   onUpdateTopicStatus={handleUpdateStatus}
@@ -274,12 +294,22 @@ export default function Home() {
               {currentTab === 'ai_agentic' && (
                 <PillarView
                   pillar="ai_agentic"
+                  onMarkRevision={handleMarkRevision}
                   topics={topics.filter((t) => t.pillar === 'ai_agentic')}
                   onOpenTopic={setSelectedTopic}
                   onUpdateTopicStatus={handleUpdateStatus}
                   onUpdateConfidence={handleUpdateConfidence}
                   onSaveNotes={handleSaveNotes}
                   onOpenNewTopicModal={openNewTopicModalWithPillar}
+                />
+              )}
+
+              {currentTab === 'backlog' && metrics && (
+                <BacklogView
+                  entries={metrics.backlog}
+                  onOpenTopic={setSelectedTopic}
+                  onUpdateStatus={handleUpdateStatus}
+                  onMarkRevision={handleMarkRevision}
                 />
               )}
 
@@ -326,6 +356,7 @@ export default function Home() {
       <TopicModal
         topic={selectedTopic}
         onClose={() => setSelectedTopic(null)}
+        onMarkRevision={handleMarkRevision}
         onUpdateStatus={handleUpdateStatus}
         onUpdateConfidence={handleUpdateConfidence}
         onSaveNotes={handleSaveNotes}

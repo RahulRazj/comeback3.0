@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { SEED_TOPICS, SeedTopic } from './seed-data';
 import { AI_SEED_TOPICS } from './ai-seed-data';
+import { getBacklog } from './backlog';
 import {
   Topic,
   ReviewLog,
@@ -547,6 +548,7 @@ export async function getDashboardMetrics(): Promise<DashboardMetrics> {
     pillars,
     todaysFocus,
     dueForReview,
+    backlog: getBacklog(allTopics, startDateStr, now),
     upcomingRevisions,
     recentCompleted,
     heatmapData,
